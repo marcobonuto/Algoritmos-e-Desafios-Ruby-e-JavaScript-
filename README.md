@@ -1,6 +1,6 @@
-# Algoritmos-e-Desafios-Ruby-e-JavaScript-
+# Algoritmos e Desafios resolvidos em Ruby e JavaScript
 
-Série de algoritmos resolvidos em Ruby e JavaScript para meios de estudo e aprendizado dessas linguagens.
+Série de algoritmos resolvidos em Ruby e JavaScript para meios de estudo afim do aprendizado dessas linguagens de programação.
 
 Dúvidas, entre em contato:
 
