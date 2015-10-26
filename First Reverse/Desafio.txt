@@ -4,5 +4,10 @@ Este desafio cria um método que recebe uma determinada string (ou mais de uma) 
 
 "Hello World" = "dlroW olleH"
 
-Segue os arquivos com a resolução em Ruby e em JavaScript;
+Segue o arquivo com a resolução em Ruby e em JavaScript;
+
+Good job, 
+
+Marco Bonuto []`s
+
 
