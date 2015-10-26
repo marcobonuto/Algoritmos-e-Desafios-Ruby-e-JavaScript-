@@ -1,0 +1,13 @@
+Este desafio cria um método que recebe um numero como parametro e retorna o seu fatorial.
+
+Segundo tal definição, o fatorial de 5 é representado por 5! e lê-se 5 fatorial.
+
+5! é igual a 5 * 4 * 3 * 2 * 1 que é igual a 120, assim como 4! é igual a 4 * 3 * 2 * 1 que é igual a 24, como 3! é igual a 3 * 2 * 1 que é igual a 6 e que 2! é igual a 2 * 1 que é igual a 2.
+
+Por definição tanto 0!, quanto 1! são iguais a 1.
+
+Good job, 
+
+Marco Bonuto []`s
+
+
