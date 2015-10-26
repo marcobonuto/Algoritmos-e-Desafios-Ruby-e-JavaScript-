@@ -1,0 +1,8 @@
+Este desafio cria um método que recebe uma determinada string (ou mais de uma) e por fim imprime ela de traz para frente, por exemplo:
+
+"Ruby" = "ybuR"
+
+"Hello World" = "dlroW olleH"
+
+Segue os arquivos com a resolução em Ruby e em JavaScript;
+
