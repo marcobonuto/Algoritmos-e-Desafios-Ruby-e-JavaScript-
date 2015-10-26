@@ -4,6 +4,8 @@ Este desafio cria um método que recebe um parametro (uma string ou mais de uma)
 
 "Hello World" = "dlroW olleH"
 
+Existe uma série de métodos embutidos nessas linguagens para inverter a string para voce de forma bem simples, vamos utiliza-los, porem faremos tambem um outro tipo de resolução, criaremos uma nova string que sera preenchida com os caracteres da string original, para fazer isso vamos percorrer a string original a partir do final, e cada iteração do loop passamos para o caractere anterior na seqüência, essa é uma boa prática para exercitarmos nosso raciocinio lógico.
+
 Segue os arquivos com a resolução em Ruby e em JavaScript;
 
 Good job, 

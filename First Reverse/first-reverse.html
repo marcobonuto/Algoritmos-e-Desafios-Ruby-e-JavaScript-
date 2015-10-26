@@ -6,7 +6,7 @@
 
   // Resolução em JavaScript
 
-    function FirstReverse(str) { 
+    function firstReverse(str) { 
 
     var newString = "";
     
@@ -16,11 +16,18 @@
     }
       
     return newString;     
+    } 
+
+    console.log(firstReverse("Ruby"));
+    console.log(firstReverse("Hello World"));
+    
+    // Utilizando os métodos embutidos na linguagem
+
+    function firstReverse2(str){
+      return str.split("").reverse().join("");
     }
- 
-    console.log(FirstReverse("Ruby"));
-    console.log(FirstReverse("Hello World"));
-    console.log(FirstReverse("Chame a string que voce quizer!"));
+    
+    console.log(firstReverse2("Chame a string que voce quizer!"));
 
   </script>
 </head>
