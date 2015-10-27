@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script>
+
+  // Resolução em JavaScript
+  
+  function LetterChanges(str) { 
+
+    var letters = "abcdefghijklmnopqrstuvwxyz"
+    var newArray = []; // Cria um array vazio 
+    
+    for (var i = 0; i < str.length; i++){
+      if(letters.indexOf(str[i]) == -1){
+        newArray.push(str[i]); 
+      } else {
+          var letr = letters[letters.indexOf(str[i])+1];
+          if (letr == "a" | letr == "e" | letr == "i" | letr == "o"| letr == "u"){
+            newArray.push(letr.toUpperCase());
+          } else {  
+            newArray.push(letr);
+          }
+        } 
+      }
+    
+      str = newArray.join("");
+      return str;        
+    }
+    
+    //console.log(LetterChanges("marco"));
+
+  </script>
+</head>
+  
+<body>
+  
+</body>
+
+</html>
