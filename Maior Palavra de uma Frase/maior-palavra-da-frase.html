@@ -5,39 +5,32 @@
   <script>
 
   // Resolução em JavaScript
-  // 5! é igual a 5 * 4 * 3 * 2 * 1 que é igual a 120
-
-  // No código abaixo criamos uma variavel chamada fatorial que sera utilizada para armazenar os valores temporarios dentro do laço loop. Esse laço começa em 1 e incrementa até chegarmos na variavel 'num' (argumento passado pelo usuario).
-
+  
   function LongestWord(sen) { 
 
-    var myArray = sen.replace(/\W+/g, " ").split(" ");
-    var newArray = [];
+    var myArray = sen.replace(/\W+/g, " ").split(" "); // Cria um array que recebe uma frase (parametro sen) e através do metodo split (note o (" ") ele separa palavra por palavra), o método replace usa uma regex para só aceitar letras e numeros, eliminando caracteres como @!#$%
+
+    var newArray = []; // Cria um array vazio. 
     
-    for(var i = 0; i < myArray.length; i++){
+    for (var i = 0; i < myArray.length; i++) {
       newArray.push(myArray[i].length + "-" + myArray[i]);
-    }
-  
-    var sorted = newArray.sort(function (a,b){
-      if (parseInt(a) > parseInt(b)){
-        return -1;
+    } // Percorre cada palavra do array e encontra o seu tamanho através do método lenght e depois acrescenta no novo array (newArray)
     
+    // Abaixo função que ordena o newArray e depois faz a comparação das strings
+    var sorted = newArray.sort(function (a,b){
+      if (parseInt(a) > parseInt(b)){ // parseInt converte para INTEIROS
+        return -1;
       } else if (parseInt(b) > parseInt(a)){
-        return 1
+        return 1;
       } else {
         return 0;
       }
     });
-  
-    // code goes here  
-    return sorted[0].replace(/\d+\-/,""); 
-         
-  }
    
-  // keep this function call here 
-  // to see how to enter arguments in JavaScript scroll down
-  console.log(LongestWord("Vai pensando que ela é facil rapaz"));  
-  console.log(LongestWord("Qual a maior palavra dessa frase?"));
+    return sorted[0].replace(/\d+\-/,""); // Pega o primeiro indice do newArray (agora o primeiro indice é o maior); 
+  }
+
+  //console.log(LongestWord("Qual a maior palavra dessa frase?"));
 
   </script>
 </head>
