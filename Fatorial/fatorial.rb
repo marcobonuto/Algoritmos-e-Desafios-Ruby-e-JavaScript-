@@ -14,4 +14,4 @@ puts "O fatorial de 0 é: " + fatorial(0).to_s
 puts "O fatorial de 1 é: " + fatorial(1).to_s
 puts "O fatorial de 5 é: " + fatorial(5).to_s
 
-
+# Diferente do que fizemos em JavaScript, aqui utilizamos uma funçao recursiva para calcular o fatorial, uma função recursiva chama a si mesmo um certo número de vezes até atingir uma condição que encerra as chamadas da função.

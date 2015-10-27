@@ -6,7 +6,7 @@ Segundo tal definição, o fatorial de 5 é representado por 5! e lê-se 5 fator
 
 Por definição tanto 0!, quanto 1! são iguais a 1.
 
-Segue os arquivos com a resolução em Ruby e Javascript.
+Segue os arquivos com a resolução em Ruby e Javascript e suas respectivas explicações.
 
 Good job, 
 
