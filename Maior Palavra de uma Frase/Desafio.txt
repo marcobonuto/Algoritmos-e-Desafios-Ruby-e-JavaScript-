@@ -1,0 +1,12 @@
+Este desafio cria um método que recebe uma frase como parametro e retorna qual a maior palavra dessa frase.
+
+Por exemplo: "Qual a maior palavra dessa frase?"
+Retorna: 'palavra'
+
+Segue os arquivos com a resolução em Ruby e Javascript e suas respectivas explicações.
+
+Good job, 
+
+Marco Bonuto []`s
+
+

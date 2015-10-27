@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script>
+
+  // Resolução em JavaScript
+  // 5! é igual a 5 * 4 * 3 * 2 * 1 que é igual a 120
+
+  // No código abaixo criamos uma variavel chamada fatorial que sera utilizada para armazenar os valores temporarios dentro do laço loop. Esse laço começa em 1 e incrementa até chegarmos na variavel 'num' (argumento passado pelo usuario).
+
+  function LongestWord(sen) { 
+
+    var myArray = sen.replace(/\W+/g, " ").split(" ");
+    var newArray = [];
+    
+    for(var i = 0; i < myArray.length; i++){
+      newArray.push(myArray[i].length + "-" + myArray[i]);
+    }
+  
+    var sorted = newArray.sort(function (a,b){
+      if (parseInt(a) > parseInt(b)){
+        return -1;
+    
+      } else if (parseInt(b) > parseInt(a)){
+        return 1
+      } else {
+        return 0;
+      }
+    });
+  
+    // code goes here  
+    return sorted[0].replace(/\d+\-/,""); 
+         
+  }
+   
+  // keep this function call here 
+  // to see how to enter arguments in JavaScript scroll down
+  console.log(LongestWord("Vai pensando que ela é facil rapaz"));  
+  console.log(LongestWord("Qual a maior palavra dessa frase?"));
+
+  </script>
+</head>
+  
+<body>
+  
+</body>
+
+</html>
